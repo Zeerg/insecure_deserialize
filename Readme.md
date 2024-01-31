@@ -30,7 +30,7 @@ docker build -t insecure_deserialize:latest .
 ## Running
 
 ```
-docker run -d insecure_deserialize:latest -p 33322:80
+docker run -d -p 33322:80 insecure_deserialize:latest
 ```
 
 ## Exploting
